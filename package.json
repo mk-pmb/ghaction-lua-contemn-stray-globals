@@ -1,0 +1,30 @@
+{ "name": "ghaction-lua-contemn-stray-globals",
+  "version": "0.1.0",
+  "description": "A Github action that verifies your lua files don't leak global variables by accident.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/ghaction-lua-contemn-stray-globals/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/ghaction-lua-contemn-stray-globals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/ghaction-lua-contemn-stray-globals/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "scripts": {
+    "lint": "yaml-lint-all-recursive"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "yaml-lint-all-recursive": "^0.1.0"
+  },
+
+
+  "engines": { "github": "*" }
+}
