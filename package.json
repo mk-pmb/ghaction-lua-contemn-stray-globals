@@ -1,6 +1,6 @@
 { "name": "ghaction-lua-contemn-stray-globals",
-  "version": "0.1.0",
-  "description": "A Github action that verifies your lua files don't leak global variables by accident.",
+  "version": "0.1.1",
+  "description": "A GitHub action that verifies your lua files don't leak global variables by accident.",
   "keywords": [],
 
   "author": "M.K. (https://github.com/mk-pmb)",

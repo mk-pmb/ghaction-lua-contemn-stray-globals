@@ -5,9 +5,34 @@ ghaction-lua-contemn-stray-globals
 <!--/#echo -->
 
 <!--#echo json="package.json" key="description" -->
-A Github action that verifies your lua files don&#39;t leak global variables
+A GitHub action that verifies your lua files don&#39;t leak global variables
 by accident.
 <!--/#echo -->
+
+
+
+
+Setup
+-----
+
+The recommended way to add this action to your repo is:
+
+1.  Copy this repo's [`docs/example_workflow.yaml`](docs/example_workflow.yaml)
+    into your repo as `.github/workflows/lua_contemn_stray_globals.yaml`
+1.  Commit it to the default branch.
+    (For determining CI config, GitHub always reads the master branch,
+    independent of which branch is to be checked.)
+
+
+Configuration
+-------------
+
+See [the `find_globals` docs][find_globals-docs] for how to ignore selected
+variable names.
+
+  [find_globals-docs]: https://github.com/mk-pmb/lua-util-pmb/blob/master/find_globals.md
+
+
 
 
 
