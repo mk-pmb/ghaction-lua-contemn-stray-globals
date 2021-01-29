@@ -1,0 +1,42 @@
+%YAML 1.1
+# ^-- ATTN: [2019-12-31] If you use a later version, Github will fail
+#     with error message "Found incompatible YAML document."
+# -*- coding: UTF-8, tab-width: 4 -*-
+---
+
+name: 'LUA: Contemn stray globals'
+description: 'Scan LUA files, fail if there are unexpected global variables.'
+
+
+branding:
+    # https://github.com/mk-pmb/feather-icons-preview-pmb
+    icon: 'award'
+    color: 'orangered'
+
+
+inputs:
+    lua_util_repo:
+        description: 'Where to download lua-util-pmb from'
+        required: false
+        default: 'mk-pmb/lua-util-pmb'
+    lua_apt_pkg:
+        description: 'Which package to install for luac'
+        required: false
+        default: 'lua5.2'
+
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args: []
+
+
+
+
+
+
+
+
+
+
+
+...
