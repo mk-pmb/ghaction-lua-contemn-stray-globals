@@ -30,10 +30,17 @@ Configuration
 See [the `find_globals` docs][find_globals-docs] for how to ignore selected
 variable names.
 
-  [find_globals-docs]: https://github.com/mk-pmb/lua-util-pmb/blob/master/find_globals.md
+  [find_globals-docs]: https://mk-pmb.github.io/lua-util-pmb/find_globals.html
 
 
 
+
+Help, I have too many intentional globals!
+------------------------------------------
+
+See the ["First aid" chapter of the `find_globals` docs][first-aid].
+
+  [first-aid]: https://mk-pmb.github.io/lua-util-pmb/find_globals.html#first-aid
 
 
 
